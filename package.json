@@ -1,0 +1,41 @@
+{
+  "name": "homebridge-http-rgbw2",
+  "version": "0.0.0-development",
+  "description": "Shelly RGBW2 with HTTP for homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "author": {
+    "name": "Antoine Parizot",
+    "email": "antoine.parizot@mail.fr"
+  },
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuickSander/homebridge-http-rgb-push.git"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "color-convert": "^2.0.0",
+    "request": "^2.88.0",
+    "homebridge-http-base": "^2.1.8"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "semantic-release": "semantic-release",
+    "test": "mocha test/basics.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.13.2",
+    "sinon": "^7.2.2",
+    "eslint": "^7.9.0"
+  }
+}
