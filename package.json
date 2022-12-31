@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/QuickSander/homebridge-http-rgb-push.git"
+    "url": "https://github.com/DryToinou/shelly-rgbw2-http"
   },
   "preferGlobal": true,
   "dependencies": {
