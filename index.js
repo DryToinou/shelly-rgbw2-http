@@ -35,7 +35,7 @@ module.exports = function(homebridge){
     api = homebridge;
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    homebridge.registerAccessory(MODEL, 'HttpShellyRGBW2', HttpPushRgb);
+    homebridge.registerAccessory(MODEL, 'homebridge-http-rgbw2', HttpPushRgb);
 };
 
 // -----------------------------------------------------------------------------
